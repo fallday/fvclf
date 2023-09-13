@@ -12,7 +12,10 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 model = load_model('mv3.h5')  # 替换成你保存的模型文件名
 
 # 定义类别名称（根据你的数据集）
-class_names = ['apple', 'banana', 'grapes', 'kiwi', 'mango', 'orange', 'pear', 'pinapple', 'pomegranate', 'watermelon']  # 替换成你的类别名称
+# class_names = ['apple', 'banana', 'grapes', 'kiwi', 'mango', 'orange', 'pear', 'pinapple', 'pomegranate', 'watermelon']  # 替换成你的类别名称
+class_names = ['apple', 'banana', 'beetroot', 'bell pepper', 'cabbage', 'capsicum', 'carrot', 'cauliflower', 'chilli pepper', 'corn', 'cucumber',
+               'eggplant', 'garlic', 'ginger', 'grapes', 'jalepeno', 'kiwi', 'lemon', 'lettuce', 'mango', 'onion', 'orange', 'paprika', 'pear',
+               'peas', 'pinapple', 'pomegranate', 'potato', 'raddish', 'soy beans', 'spinach', 'sweetcorn', 'sweetpotato', 'tomato', 'turnip', 'watermelon']
 
 # 加载测试数据集
 test_dir = 'dataset/test'  # 替换成你的测试数据集路径
